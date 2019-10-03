@@ -19,7 +19,7 @@ public class radioscript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "HTC_Vive_controller")
+        if (other.gameObject.name.Contains("HTC_Vive_controller"))
             music.mute = !music.mute;
     }
 }
