@@ -8,7 +8,7 @@ public class radioscript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        music = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame

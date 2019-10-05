@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lavaLampToggle : MonoBehaviour
+public class lightToggle : MonoBehaviour
 {
     public GameObject light;
 
     // Start is called before the first frame update
     void Start()
     {
-        light = GameObject.Find("Lava Lamp Light");
+
     }
 
     // Update is called once per frame
